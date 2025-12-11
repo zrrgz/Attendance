@@ -1,0 +1,17 @@
+:root{--ink:#001F3D;--p1:#ED985F;--p2:#F7B980;--muted:#E6E6E6}
+*{box-sizing:border-box;font-family:Inter,system-ui,Arial}
+body{margin:0;background:linear-gradient(180deg,var(--muted)10%,#fff);color:var(--ink)}
+header{display:flex;align-items:center;justify-content:space-between;padding:12px 20px;background:rgba(255,255,255,0.85);backdrop-filter:blur(6px)}
+header h1{margin:0}
+nav button{margin-left:8px;padding:8px 12px;border-radius:10px;border:0;background:var(--p1);color:#fff}
+.container{padding:18px}
+.card{background:#fff;border-radius:12px;padding:12px;box-shadow:0 6px 20px rgba(0,0,0,0.06);margin-bottom:12px}
+.table{width:100%;border-collapse:collapse}
+.table th,.table td{padding:8px;border-bottom:1px solid #f1f1f1;text-align:left}
+.small{font-size:13px;color:#666}
+.form-row{display:flex;gap:8px;align-items:center;margin-bottom:8px}
+.input{padding:8px;border-radius:8px;border:1px solid #ddd}
+.btn{padding:8px 12px;border-radius:8px;border:0;background:var(--p2);color:#fff}
+.percent{font-weight:700;font-size:18px}
+.subject-row{display:flex;gap:8px;align-items:center;margin-bottom:6px}
+.link{color:var(--ink);text-decoration:underline;cursor:pointer}
